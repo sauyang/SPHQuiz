@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Copyright, for commercial use please read the copyright -->
+
+    <string name="FontLight" translatable="false">Frutiger LT 45 Light</string>
+    <string name="FontRoman" translatable="false">Frutiger LT 55 Roman</string>
+    <string name="FontBold" translatable="false">Frutiger LT 65 Bold</string>
+    <string name="FontBlack" translatable="false">Frutiger LT 65 Bold</string>
+
+</resources>

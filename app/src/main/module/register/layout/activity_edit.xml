@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/SS.Label.NormalBig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="Click to Edit or Save (*Top Right)"
+            android:textSize="14sp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivUpload"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+            <com.sauyang.androidsample.ui.widget.STYLEditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:header="@string/username" />
+
+            <com.sauyang.androidsample.ui.widget.STYLEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                app:header="@string/password" />
+
+            <com.sauyang.androidsample.ui.widget.STYLEditText
+                android:id="@+id/etFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:header="@string/firstname" />
+
+            <com.sauyang.androidsample.ui.widget.STYLEditText
+                android:id="@+id/etLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:header="@string/lastname" />
+
+            <com.sauyang.androidsample.ui.widget.STYLEditText
+                android:id="@+id/etEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:header="@string/emailaddress" />
+
+
+            <com.sauyang.androidsample.ui.widget.STYLEditText
+                android:id="@+id/etAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:header="@string/age" />
+
+
+            <com.sauyang.androidsample.ui.widget.STYLEditText
+                android:id="@+id/etHobbies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:header="@string/hobbies" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

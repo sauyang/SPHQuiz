@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="list_bg_grey">#dedede</color>
+    <color name="red_theme_color">#ff3e3e</color>
+    <color name="light_grey">#CCCCCC</color>
+
+
+    <color name="text_black_color">#000000</color>
+    <color name="text_white_color">#FFFFFF</color>
+
+    <color name="general_gray_color">#666363</color>
+    <color name="general_green_color">#09843a</color>
+
+    <color name="dark_red">#CC0000</color>
+    <color name="normal_red">#FF0000</color>
+
+    <color name="loading_grey_transparency">#44000000</color>
+    <color name="medium_grey">#AAAAAA</color>
+    <color name="dark_grey">#999494</color>
+    <color name="light_blue">#FF33B5E5</color>
+
+    <color name="text_negative_number_color">#CA0A14</color>
+    <color name="general_theme_color">#ff3e3e</color>
+    <!--SSTextView text color -->
+    <color name="text_grey_color">@color/general_gray_color</color>
+    <color name="text_dark_grey_color">#333333</color>
+    <color name="transparent">#00FFFFFF</color>
+
+
+    <color name="lightblue">#FF33B5E5</color>
+    <color name="grey">#FFBBBBBB</color>
+    <color name="lightblue2">#FF33B5E5</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white2">#BBFFFFFF</color>
+    <color name="lightblue3">#FF33B5E5</color>
+    <color name="keyboard_background">#bababa</color>
+</resources>

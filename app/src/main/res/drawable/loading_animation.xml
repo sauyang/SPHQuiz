@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<animation-list android:id="@+id/selected"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+        <item android:drawable="@drawable/sphh" android:duration="1500" />
+        <item android:drawable="@drawable/sphhh" android:duration="750" />
+        <item android:drawable="@drawable/sphradio" android:duration="750" />
+
+
+
+    </animation-list>

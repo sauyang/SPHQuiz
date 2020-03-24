@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <com.sauyang.androidsample.ui.widget.SSTextView
+            style="@style/SS.Label.NormalBigBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Menu" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_30sdp">
+
+            <com.sauyang.androidsample.ui.widget.SSTextView
+                android:id="@+id/tvGoRegisteredList"
+                style="@style/Button.Positive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textColor="@color/text_black_color"
+                android:text="Go to Registered User List " />
+
+            <com.sauyang.androidsample.ui.widget.SSTextView
+                android:id="@+id/tvGotoMobileData"
+                style="@style/Button.Positive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textColor="@color/text_black_color"
+                android:text="Go to Mobile Data Graph" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WebService</string>
+    <string name="ok">OK</string>
+    <string name="loading_data">Loading...</string>
+    <string name="date_and_week_display_format">EEE, dd MMM yyyy</string>
+    <string name="date_display_format">dd-MMM-yyyy</string>
+</resources>

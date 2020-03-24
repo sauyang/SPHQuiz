@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+id progressBar
+id textView
+layout custom_progress_dialog
+raw login
+string app_name
+string date_and_week_display_format
+string date_display_format
+string loading_data
+string ok
+style ProgressDialogStyleNoTitle

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Each smaller by 2-->
+    <dimen name="text_size_header_1">28sp</dimen>
+    <dimen name="text_size_header_2">24sp</dimen>
+    <dimen name="text_size_header_3">20sp</dimen>
+    <dimen name="text_size_header_4">18sp</dimen>
+
+    <dimen name="text_size_body_1">16sp</dimen>
+    <dimen name="text_size_body_2">14sp</dimen>
+    <dimen name="text_size_body_3">12sp</dimen>
+    <dimen name="text_size_body_4">10sp</dimen>
+
+    <!-- padding size -->
+    <dimen name="general_padding_48">48dp</dimen>
+    <dimen name="general_padding_32">32dp</dimen>
+    <dimen name="general_padding_16">16dp</dimen>
+    <dimen name="general_padding_8">8dp</dimen>
+    <dimen name="general_padding_4">4dp</dimen>
+
+
+</resources>

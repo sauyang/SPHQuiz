@@ -1,0 +1,2 @@
+include ':app', 'libraries:WebService'
+rootProject.name='My Application'

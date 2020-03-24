@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WebService</string>
+    <string name="date_and_week_display_format">EEE, dd MMM yyyy</string>
+    <string name="date_display_format">dd-MMM-yyyy</string>
+    <string name="loading_data">Loading...</string>
+    <string name="ok">OK</string>
+    <style name="ProgressDialogStyleNoTitle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>
